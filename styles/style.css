@@ -1,0 +1,147 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: black;
+}
+.nav-link.active{
+    margin-left: 40px;
+}
+.nav-item{
+    padding-right: 35px;
+}
+.btn.btn-outline-success{
+    color: #e4433f;
+    border-color: #e4433f;  
+}
+.btn.btn-outline-success:hover{
+    background-color: #3d0403;
+}
+.filmes{
+    margin-top: 40px;
+    margin-left: 35px;
+}
+h4{
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+h5{
+    color: rgb(207, 206, 206);
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.sec_filme_acao{
+    display: inline-flex;
+}
+
+.img_filme_acao{
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+.img_filme_acao:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    cursor: pointer
+}
+.sec_filme_comedia{
+    display: inline-flex;
+}
+.img_filme_comedia{
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+.img_filme_comedia:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    cursor: pointer
+}
+.sec_filme_drama{
+    display: inline-flex;
+}
+.img_filme_drama{
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+.img_filme_drama:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    cursor: pointer
+}
+.sec_filme_suspense{
+    display: inline-flex;
+}
+.img_filme_suspense{
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+.img_filme_suspense:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    cursor: pointer
+}
+.sec_series{
+    display: inline-flex;
+}
+.img_series{
+    padding-bottom: 15px;
+    padding-right: 25px;
+}
+.img_series:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    cursor: pointer
+}
+#contato{
+    flex-direction: column;
+    align-items: center;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+form{
+    width: 600px;
+}
+form input{
+    margin: 5px;
+    border-style: solid;
+    border-radius: 4px;
+    height: 25px;
+    width: 100%;
+}
+form textarea{
+    margin: 5px;
+    border-style: solid;
+    border-radius: 4px;
+    width: 100%;
+
+}
+label {
+    margin: 5px;
+    color: white;
+}
+input.contato{
+    width: 100px;
+    height: 28px;
+
+}
+h1{
+    color: white;
+}
+h4{
+    margin-top: 40px;
+    padding-left: 30px;
+}
+.text-body-secondary{
+    color: white;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
