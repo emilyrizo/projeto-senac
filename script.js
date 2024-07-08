@@ -11,14 +11,3 @@ form.addEventListener('submit', (e) => {
     
     form.reset()
 });
-
-const searchBox = document.getElementById('search-box');
-const searchForm = document.querySelector('form');
-
-searchForm.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  const searchTerm = searchBox.value;
-  
-//   console.log(searchTerm); // Exemplo: apenas mostrando o termo no console no momento
-});
